@@ -25,6 +25,7 @@ def stack(s):
     for i in range(len(st) - 1, -1, -1):
         re.append(st.pop(i))
 
+
     print(*re)
 
 def precedence(op):
